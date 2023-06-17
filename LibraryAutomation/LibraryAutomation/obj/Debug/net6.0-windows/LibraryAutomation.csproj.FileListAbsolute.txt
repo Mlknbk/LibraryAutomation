@@ -63,3 +63,4 @@ C:\Users\DELL\source\repos\Mlknbk\LibraryAutomation\LibraryAutomation\LibraryAut
 C:\Users\DELL\source\repos\Mlknbk\LibraryAutomation\LibraryAutomation\LibraryAutomation\obj\Debug\net6.0-windows\LibraryAutomation.Forms.UserLoginPanel.resources
 C:\Users\DELL\source\repos\Mlknbk\LibraryAutomation\LibraryAutomation\LibraryAutomation\obj\Debug\net6.0-windows\LibraryAutomation.Properties.Resources.resources
 C:\Users\DELL\source\repos\Mlknbk\LibraryAutomation\LibraryAutomation\LibraryAutomation\obj\Debug\net6.0-windows\LibraryAutomation.Forms.UserRegisterPanel.resources
+C:\Users\DELL\source\repos\Mlknbk\LibraryAutomation\LibraryAutomation\LibraryAutomation\obj\Debug\net6.0-windows\LibraryAutomation.Forms.UserPanel.resources

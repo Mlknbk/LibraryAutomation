@@ -14,7 +14,7 @@ namespace LibraryAutomation.Configurations
         public void Configure(EntityTypeBuilder<Author> builder)
         {
             builder.HasKey(au => au.ID);
-            builder.Property(au=>au.UserName).IsRequired();
+            builder.Property(au=>au.FirstName).IsRequired();
             builder.Property(au=>au.LastName).IsRequired();
             
         }

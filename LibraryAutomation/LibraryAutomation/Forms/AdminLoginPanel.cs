@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using LibraryAutomation.Context;
+using LibraryAutomation.Helpers;
 using LibraryAutomation.Models;
 
 namespace LibraryAutomation.Forms
@@ -15,6 +16,7 @@ namespace LibraryAutomation.Forms
     public partial class AdminLoginPanel : Form
     {
         LibraryContext lc = new LibraryContext();
+        HashPassword hp = new HashPassword();
         public AdminLoginPanel()
         {
             InitializeComponent();
@@ -22,17 +24,26 @@ namespace LibraryAutomation.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string email = textBox1.Text;
-            string password = textBox2.Text;
-            var account =lc.Accounts.FirstOrDefault(a => a.Email == email && a.Password==password);
-            if (account != null)
+            try
             {
-                MessageBox.Show("Hesap var");
+                string email = textBox1.Text;
+                string password = textBox2.Text;
+                var account = lc.Accounts.FirstOrDefault(a => a.Email == email && a.Password == hp.Hash(password));
+                if (account != null)
+                {
+                    MessageBox.Show("Hesap var");
+                }
+                else
+                {
+                    MessageBox.Show("Hesap yok");
+                }
+
             }
-            else
+            catch (Exception)
             {
-                MessageBox.Show("Hesap yok");
+                MessageBox.Show("Sistemsel bir hata oluştu sonra tekrar deneyin !");
             }
+            
 
         }
     }

@@ -1,0 +1,105 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DQAACw0B7QfALAAABAZJREFUWEe9l0tIlFEUxyeD3i16UUH2whYa42t0FCu0h4ughwun6LEyKGiRpdSq
+        pAdkUYuina3ctRB6YS5s5a6IyhAqkpyNKColglIr+/1v55NPnXG+MfMPf75zzj3nnjP3fvd8d0LpIBKJ
+        tMHxKay34f8Pkr2DVeFweJWI/KCwsPCODc8dmLi6qKjogKmhnJycFSQ6BvsKCgr2mzmk5Ph2wIpYLLbQ
+        zLKfxxY2NT2QuIYJhphgGJ6Et9FH4FvYkJubu9xcQ/n5+TuwPcKnB8bhGfS7sA95gPE8cw0GX/JCWIk8
+        xvNFcXHxTnNJCmKP4N+Ff3c0Gt2EfDatInCu9pKbKVRaWrrUxFB5efkSxg8x3sizmedjeA1GGV7w1yuU
+        kZWVtdhkbYWKGKSgbWZKDu05zlr2SjM5aG+xXdBE8CO8z8S18DJyE+yFnXBSnIDtOoyzghvMNDNwPsHE
+        Y94vLysrW4neCt8ztts5TYEK1NYxPoBfg5k1VyUczcvL22qm1CBAy/tcsiZWcmxP/VuRDBSxHd9ueEm6
+        nZx+9L3OIRXs1454Lxyylvl9kOQeOKLZJBz2zXERtrvBVCD4OM5vJOuFY6IBmHDZZwIxN5mnRTKFrEH/
+        xUlY5wYTAQe113cE9UG3hxRzGPmDc0gTJSUl64kd04pKZ+4O9K/KAW84Jz8wqp9XqcN5TQa9Ed5zDrMA
+        sZ+g23vejUw7YVqZ6dvBwLj6uqkOODbDWlPTBrE6OadMdSBPLHAB2HS+r5iaNoh9DatNdUBPXgB0XzX1
+        drNdhU3OYRYgNs6yF0vmeVBzw2fJCqiXA0+9LI/MFoW9/i9cUPAu5RI76MUyZxfUlt6hmCPOKREIqoA9
+        pi5A7iSgxvTAIO4JdC8wxWQh/6ApLXKDM8F6vpbOVYmsVjqIvt05BAC/UneGfprXaunEP4TBtxJnfc+7
+        EDOkIzdg6+aXZEufCUqO7zDPPdIVg/4TbnYOQUDwXQK++T+p6HWaGN6EG808AX3vsT8htt9Ljr4Mqrm1
+        OqcgwPk87NNlwkwTUG9nrAXqgqIm8xK5naduQfpM3/OWXc2MMX3E1GF7kG+5SVIB5zBU/z9nJtkqvZYq
+        6AuHrYLlPc0zBqP+k2LLrpbbphcPfQty8CJsOfVd101Gl4lR02t5rjW3aSCR3na9cD/xfcWzR8ltbFZF
+        aFnjukwQuA9quX/DDk5Fprl6TUb3wB+wyRtTMvRJRWD7Lrv0lNAdbuo1ignXMsFXkkxc19HV4ZoTnXMl
+        +6ciEoEJtb86Ddp/9Xa116R/TJRMSeesCJLeILjdT2xHbTghlAzOXRGzQbIiKL7OOcwHphZBcv35GXCD
+        8wVfEUU8ddQ/29D8QctO8iH4JRKJ7PoDenegKWWcms4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="bookBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="authorBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>239, 17</value>
+  </metadata>
+  <metadata name="bookTypeBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>473, 17</value>
+  </metadata>
+  <metadata name="publisherBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>734, 17</value>
+  </metadata>
+  <metadata name="transactionBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 65</value>
+  </metadata>
+  <metadata name="transactionBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>990, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+</root>

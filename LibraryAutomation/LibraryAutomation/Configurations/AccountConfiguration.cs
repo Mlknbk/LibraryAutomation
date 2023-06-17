@@ -19,7 +19,7 @@ namespace LibraryAutomation.Configurations
         {
             builder.HasKey(a => a.ID);
             builder.Property(a => a.Email).IsRequired();
-            builder.Property(a => a.Password).IsRequired().HasMaxLength(20);
+            builder.Property(a => a.Password).IsRequired().HasMaxLength(100);
         }
     }
 }

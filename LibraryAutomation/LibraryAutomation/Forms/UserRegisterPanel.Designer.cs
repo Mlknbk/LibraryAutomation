@@ -105,6 +105,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(279, 34);
             this.textBox4.TabIndex = 12;
+            this.textBox4.UseSystemPasswordChar = true;
             // 
             // label3
             // 
@@ -133,6 +134,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(279, 34);
             this.textBox5.TabIndex = 17;
+            this.textBox5.UseSystemPasswordChar = true;
             // 
             // label5
             // 
@@ -182,6 +184,7 @@
             this.Name = "UserRegisterPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserRegisterPanel";
+            this.Load += new System.EventHandler(this.UserRegisterPanel_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
