@@ -15,13 +15,9 @@ namespace LibraryAutomation.Forms
 {
     public partial class UserPanel : Form
     {
-        private int _ID;
+        public int _ID { get; set; }
         LibraryContext lc = new LibraryContext();
 
-        public UserPanel(int ID)
-        {
-            _ID = ID;
-        }
 
         private void getAllBooks()
         {

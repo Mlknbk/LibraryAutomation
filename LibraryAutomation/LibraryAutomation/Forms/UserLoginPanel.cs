@@ -35,7 +35,9 @@ namespace LibraryAutomation.Forms
 
                 if (account != null)
                 {
-                    UserPanel up = new UserPanel(account.ID);
+                    UserPanel up = new UserPanel();
+                    up._ID = account.ID;
+                    
                     this.Hide();
                     up.Show();
                 }
